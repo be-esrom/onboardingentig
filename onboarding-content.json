@@ -1,0 +1,50 @@
+{
+  "brand": "EnTig",
+  "version": 1,
+  "sourceLanguage": "en",
+  "targetLanguage": "ti",
+  "targetDirection": "ltr",
+  "steps": [
+    {
+      "id": "welcome",
+      "eyebrow": "WELCOME TO ENTIG",
+      "title": "Every word brings you closer.",
+      "description": "Find Tigrinya translations for English words, in one simple place.",
+      "primaryAction": "Continue",
+      "scene": "paired-language-cards",
+      "illustrationWords": [{ "en": "Hello", "ti": "ሰላም" }]
+    },
+    {
+      "id": "lookup",
+      "eyebrow": "ENGLISH TO TIGRINYA",
+      "title": "From one language to another.",
+      "description": "Type an English word. See its Tigrinya translation in a clear, readable view.",
+      "primaryAction": "Continue",
+      "scene": "dictionary-result-card",
+      "illustrationWords": [{ "en": "Water", "ti": "ማይ" }]
+    },
+    {
+      "id": "begin",
+      "eyebrow": "YOUR NEXT WORD",
+      "title": "Start with a word.",
+      "description": "A familiar greeting. Something for today. Your next word is waiting.",
+      "primaryAction": "Start exploring",
+      "scene": "symbol-and-word-tickets",
+      "illustrationWords": [{ "en": "Hello", "ti": "ሰላም" }, { "en": "Water", "ti": "ማይ" }]
+    }
+  ],
+  "controls": {
+    "skip": "Skip intro",
+    "back": "Back",
+    "replay": "Replay intro",
+    "note": "English to Tigrinya. One word at a time."
+  },
+  "home": {
+    "title": "Which word are you looking for?",
+    "subtitle": "Begin with an English word.",
+    "searchLabel": "Search for an English word",
+    "searchPlaceholder": "Search an English word",
+    "emptyTitle": "No word found",
+    "emptyDescription": "Check the spelling or try another English word."
+  }
+}
